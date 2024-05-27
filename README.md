@@ -24,3 +24,15 @@ Run this command to run the service, the HTTP port is at `:8000`
 ```sh
 ./bin/dealls-dating-svc
 ```
+
+## Tech stack
+List of tech stack that is used for this project
+
+### 1. PostgreSQL
+As the main database to store data
+
+### 2. Redis
+As a cache for frequently accessed data
+
+### 3. Docker
+For deploying and running the service
