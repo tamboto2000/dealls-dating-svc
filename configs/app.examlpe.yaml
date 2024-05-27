@@ -1,0 +1,32 @@
+cache:
+  host: localhost
+  port: 6379
+
+database:
+  driver: postgres
+  username: dealls-date
+  password: '12345678'
+  host: localhost
+  port: 5432
+  database: dealls-date
+
+smtp:
+  host: smtp.gmail.com
+  port: 587
+  sender_name: Franklin Collin Tamboto <tamboto2000@gmail.com>
+  email: tamboto2000@gmail.com
+  password: mwaglwihyhxrgpjn
+
+auth:
+  password:
+    min_length: 8
+    max_length: 100
+    salt: 2thkF9mn   
+  jwt:
+    sign_method: hs256
+    key: s6zHXFEW44rS5Bf04ZvqvmdrQAWnwP5Z  
+    expiration: 604800 # in seconds (current value: 7 days)
+
+premium_features:
+  unlimited_swipe: 1234567890
+  
