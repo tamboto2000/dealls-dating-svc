@@ -15,7 +15,7 @@ smtp:
   port: 587
   sender_name: Franklin Collin Tamboto <tamboto2000@gmail.com>
   email: tamboto2000@gmail.com
-  password: mwaglwihyhxrgpjn
+  password: app_password
 
 auth:
   password:
